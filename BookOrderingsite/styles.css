@@ -1,0 +1,177 @@
+
+html,
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b6b2b2;
+    text-align: center;
+}
+.button-container{
+   
+        display: flex;
+        gap: 10px;
+        margin-left:auto;
+    
+    
+}
+.a {
+    background-color:rgb(127, 223, 240);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    max-width:100%;
+    margin-bottom:22%;
+}
+.nav{
+    display:flex;
+    justify-content: center;
+    flex:1; 
+    font-weight:bold;
+    font-size:20px;
+    max-width:100%;
+    margin-bottom:1%;
+}
+.button-container{
+ margin-left:auto;
+} 
+.login,.register,.logout {
+   background-color:grey; 
+   padding:10px;
+   border-radius:5px;
+   font-weight:bold;
+   margin-left:10px;
+   cursor:pointer;
+}
+
+
+.header {
+    background-color:rgb(127, 223, 240);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-content {
+    background-color:   white;
+    padding: 10px;
+}
+
+
+.book {
+    border: 1px solid #000000;
+    padding: 1em;
+    margin: 0.5%; 
+    text-align: center;
+    width: 30%;
+    max-width: 300px; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0.5em; 
+}
+
+
+.book img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+form {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight:bold;
+    
+}
+
+
+
+textarea {
+    resize: vertical; 
+}
+
+input[type="submit"] {
+    background-color:aqua;
+   
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #000000;
+    color: #66ead4;
+}
+.view-more {
+    background-color: #0fe3e7;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+.view-more:hover {
+    background-color: #000000;
+    color: #66ead4;
+}
+.buy-now,.add-to-favorites,.remove {
+    background-color: #66ead4;
+    color: #000000;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.buy-now:hover,.add-to-favorites:hover ,.remove:hover{
+    background-color: #000000;
+    color: #66ead4;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]
+textarea {
+    font-size: 20px;
+    padding:10px;
+    margin:10px; }
+
+
+
+
+
+
+
+.contact-info {
+    background-color:rgb(127, 223, 240);
+    padding: 20px;
+    bottom:0;
+    position:relative;
+    width: 100%;
+    margin-top:200px;
+}
